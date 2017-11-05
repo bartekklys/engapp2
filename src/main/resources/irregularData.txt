@@ -1,0 +1,139 @@
+be (am/is/are),was, were,been,być,a2
+become,became,become,stawać się, zostawać kimś/czymś,a2
+begin,began,begun,zaczynać,a2
+break,broke,broken,łamać, pękać, rozbić, tłuc,a2
+bring,brought,brought,przynosić, przyprowadzić,a2
+build,built,built,budować,a2
+buy,bought,bought,kupować,a2
+catch,caught,caught,łapać,a2
+choose,chose,chosen,wybierać,a2
+come,came,come,przyjść, przyjechać,a2
+cost,cost,cost,kosztować,a2
+cut,cut,cut,ciąć, kroić, skaleczyć,a2
+do,did,done,robić,a2
+draw,drew,drawn,rysować, pociągnąć, remisować,a2
+dream,dreamed, dreamt,dreamed, dreamt,śnić, marzyć,a2
+drink,drank,drunk,pić,a2
+drive,drove,driven,prowadzić, kierować się czymś,a2
+eat,ate,eaten,jeść,a2
+fall,fell,fallen,padać, upadać, spadać,a2
+feel,felt,felt,czuć,a2
+find,found,found,znaleźć,a2
+fly,flew,flown,latać,a2
+get,got,got,dostawać,a2
+give,gave,given,dawać,a2
+go,went,gone,iść,a2
+grow,grew,grown,rosnąć,a2
+have,had,had,mieć,a2
+hear,heard,heard,słyszeć,a2
+hit,hit,hit,uderzać,a2
+hold,held,held,trzymać, utrzymywać, posiadać,a2
+hurt,hurt,hurt,ranić, boleć,a2
+keep,kept,kept,trzymać,a2
+know,knew,known,znać, wiedzieć,a2
+learn,learnt, learned,learnt, learned,uczyć się,a2
+leave,left,left,opuszczać, wyjeżdżać, zostawiać,a2
+lend,lent,lent,pożyczać,a2
+lose,lost,lost,tracić, zgubić,a2
+make,made,made,robić, wykonywać,a2
+mean,meant,meant,znaczyć, oznaczać; mieć na myśli,a2
+meet,met,met,spotykać, poznać,a2
+pay,paid,paid,płacić,a2
+put,put,put,kłaść,a2
+read,read,read,czytać,a2
+ride,rode,ridden,jeździć,a2
+ring,rang,rung,dzwonić,a2
+run,ran,run,biec,a2
+say,said,said,mówić,a2
+see,saw,seen,widzieć,a2
+sell,sold,sold,sprzedawać,a2
+send,sent,sent,wysyłać, słać,a2
+show,showed,shown,pokazywać,a2
+shut,shut,shut,zamykać,a2
+sing,sang,sung,śpiewać,a2
+sit,sat,sat,siedzieć, siadać,a2
+sleep,slept,slept,spać,a2
+speak,spoke,spoken,mówić, rozmawiać,a2
+spend,spent,spent,spędzać, wydawać,a2
+stand,stood,stood,stać,a2
+steal,stole,stolen,kraść,a2
+swim,swam,swum,pływać,a2
+take,took,taken,brać,a2
+teach,taught,taught,uczyć,a2
+tell,told,told,powiedzieć,a2
+think,thought,thought,myśleć, sądzić, uważać,a2
+throw,threw,thrown,rzucać,a2
+wake,woke,woken,budzić,a2
+wear,wore,worn,nosić, zakładać,a2
+understand,understood,understood,rozumieć,a2
+win,won,won,wygrywać,a2
+write,wrote,written,pisać,a2
+awake,awoke,awoken,obudzić,b1
+beat,beat,beaten,bić,b1
+bite,bit,bitten,ugryźć,b1
+bleed,bled,bled,krwawić,b1
+blow,blew,blown,wiać, dmuchać,b1
+burn,burned, burnt,burned, burnt,palić, parzyć, płonąć,b1
+dig,dug,dug,kopać (np. w ziemi),b1
+feed,fed,fed,karmić, żywić,b1
+fight,fought,fought,walczyć, bić się,b1
+forget,forgot,forgotten,zapominać,b1
+forgive,forgave,forgiven,wybaczać,b1
+freeze,froze,frozen,zamarzać,b1
+hang,hung,hung,zawieszać (coś, np. obraz),b1
+hide,hid,hidden,chować, ukrywać,b1
+let,let,let,pozwalać,b1
+lie (recline),lay,lain,leżeć, kłaść się,b1
+light,lighted, lit,lighted, lit,zapalać, rozpalać, oświetlać,b1
+quit,quit,quit,rzucać, opuszczać,b1
+rise,rose,risen,podnosić się, wzrastać, wschodzić (o słońcu),b1
+shake,shook,shaken,trząść, potrząsać,b1
+shine,shone,shone,świecić, błyszczeć,b1
+shoot,shot,shot,strzelać,b1
+sink,sank,sunk,tonąć (o statku), zapadać się,b1
+stick,stuck,stuck,wbijać, wtykać, przyklejać, wystawić,b1
+strike,struck,struck,uderzyć, wybijać,b1
+tear,tore,torn,drzeć, rozdzierać,b1
+bear,bore,borne,znosić, udźwignąć coś, żywić (urazę),b2
+bend,bent,bent,zginać, nachylać,b2
+breed,bred,bred,hodować, wychować, rozmnażać się,b2
+cast,cast,cast,rzucić, zrzucić,b2
+deal,dealt,dealt,rozdawać, postępować, mieć do czynienia, radzić sobie,b2
+forbid,forbade,forbidden,zabraniać,b2
+kneel,knelt, kneeled,knelt, kneeled,klękać, klęczeć,b2
+knit,knit, knitted,knit, knitted,robić na drutach,b2
+lead,led,led,prowadzić,b2
+seek,sought,sought,szukać, poszukiwać,b2
+set,set,set,umieszczać, ustawiać, zachodzić (o słońcu), osadzić, nastawić, wyznaczyć,b2
+shrink,shrank,shrunk,kurczyć się, zbiegać,b2
+slide,slid,slid,ślizgać się, zjeżdżać,b2
+split,split,split,dzielić, rodzielać,b2
+spread,spread,spread,rozchodzić się, rozprzestrzeniać, rozkładać, rozpościerać, rozsmarować,b2
+swear,swore,sworn,przysięgać, przeklinać,b2
+sweep,swept,swept,zmiatać, zamiatać,b2
+swing,swung,swung,machnąć, zakołysać,b2
+arise,arose,arisen,pojawić się,c1
+bet,bet,bet,zakładać się, obstawiać,c1
+flee,fled,fled,umykać, uciekać, opuścić,c1
+lay (put),laid,laid,położyć, kłaść,c1
+spin,spun,spun,kręcić, zakręcić czymś/się, obrócić,c1
+stink,stank,stunk,śmierdzieć, cuchnąć,c1
+bind,bound,bound,wiązać, złączyć, oprawić (książkę),c2
+cling,clung,clung,przywrzeć, uczepić się, trzymać się kurczowo,c2
+creep,crept,crept,skradać się, zakradać, piąć się, podchodzić,c2
+fling,flung,flung,rzucić, cisnąć,c2
+forsake,forsook,forsaken,porzucać, zaniechać, opuścić,c2
+foretell,foretold,foretold,przepowiadać, przewidywać,c2
+grind,ground,ground,zemleć, rozkruszyć, zgrzytać, ostrzyć, trzeć,c2
+leap,leapt, leaped,leapt, leaped,skakać,c2
+saw,sawed,sawn,piłować,c2
+shed,shed,shed,zrzucać, pozbywać się,c2
+slay,slew,slain,zabijać,c2
+sling,slung,slung,cisnąć, miotać,c2
+spring,sprang,sprung,przeskakiwać, wyskakiwać,c2
+sting,stung,stung,żądlić,c2
+strive,strove,striven,zmagać się z czymś, dążyć, starać się, podejmować wysiłek,c2
+tread,trod,trodden,kroczyć, stąpać, deptać,c2
+weep,wept,wept,płakać, szlochać,c2
+wind,wound,wound,nawijać, nakręcać, wić się,c2
+wring,wrung,wrung,wykręcić, wyżąć coś, wycisnąć,c2
