@@ -60,7 +60,7 @@ public class App {
 
             do {
                 if (attempt > 1) {
-                    System.out.println(verb.getInfinitive() + " " + verb.getPastSimple() + " " + verb.getPastParticiple());
+                    System.out.println(Colors.ANSI_RED + verb.getInfinitive() + " " + verb.getPastSimple() + " " + verb.getPastParticiple() + Colors.ANSI_RESET);
                 }
                 String userInput = reader.nextLine();
                 while (userInput.equals("")) {
