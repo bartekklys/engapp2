@@ -1,9 +1,10 @@
 package pl.bartekk;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
+import pl.bartekk.entity.IrregularVerb;
+import pl.bartekk.entity.Level;
+import pl.bartekk.util.Constants;
+import pl.bartekk.util.DataLoader;
+import pl.bartekk.util.Utils;
 
 import java.io.*;
 import java.util.*;
@@ -11,7 +12,12 @@ import java.util.*;
 public class App {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("/home/bartek/IdeaProjects/engapp/src/main/resources/irregularData.txt"));
+
+        BufferedReader br = new BufferedReader(new FileReader(Constants.IRREGULAR_VERBS));
+
+        Scanner reader = new Scanner(System.in);
+//        System.out.println("Podaj poziom: ");
+//        Level level = Level.valueOf(reader.nextLine());
 
         List<IrregularVerb> verbs = new ArrayList<>();
 
@@ -34,12 +40,32 @@ public class App {
             br.close();
         }
 
+//        System.out.println(Level.A2);
+//        verbs = Utils.sortByLevel(verbs, level);
 
 
+        for (int i = 0 ; i < 10 ; i++) {
 
-        Scanner reader = new Scanner(System.in);  // Reading from System.in
-        System.out.println("Enter a number: ");
-        int n = reader.nextInt(); // Scans the next token of the input as an int.
+            IrregularVerb verb = pickRandom(verbs);
+            System.out.println(verb.getTranslation());
+
+            IrregularVerb answer;
+            int attempt = 1;
+
+            do {
+                if (attempt > 1) {
+                    System.out.println(verb.getInfinitive() + " " + verb.getPastSimple() + " " + verb.getPastParticiple());
+                }
+                String userInput = reader.nextLine();
+                String[] strings = userInput.split(" ");
+                answer = new IrregularVerb(strings[0], strings[1], strings[2]);
+                attempt++;
+            }
+            while (!answer.getInfinitive().equals(verb.getInfinitive()) || !answer.getPastSimple().equals(verb.getPastSimple())
+                    || !answer.getPastParticiple().equals(verb.getPastParticiple()));
+
+
+        }
         reader.close();
 
     }
@@ -75,4 +101,11 @@ public class App {
         }
         writer.close();
     }*/
+
+    private static IrregularVerb pickRandom(List<IrregularVerb> verbs) {
+        Random random = new Random();
+        int randomIndex = random.nextInt(verbs.size());
+        return verbs.remove(randomIndex);
+
+    }
 }

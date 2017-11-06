@@ -1,4 +1,4 @@
-package pl.bartekk;
+package pl.bartekk.entity;
 
 public class IrregularVerb {
 
@@ -10,12 +10,10 @@ public class IrregularVerb {
 
     public IrregularVerb(){}
 
-    public IrregularVerb(String infinitive, String pastSimple, String pastParticiple, String translation, Level level) {
+    public IrregularVerb(String infinitive, String pastSimple, String pastParticiple) {
         this.infinitive = infinitive;
         this.pastSimple = pastSimple;
         this.pastParticiple = pastParticiple;
-        this.translation = translation;
-        this.level = level;
     }
 
     public String getInfinitive() {
