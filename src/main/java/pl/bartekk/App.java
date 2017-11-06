@@ -35,7 +35,7 @@ public class App {
                 verb.setPastParticiple(strings[2]);
                 verb.setTranslation(strings[3]);
                 verb.setLevel(Level.valueOf(strings[4].toUpperCase()));
-                if (levelString.substring(levelString.length()-2).equals("-o")) {
+                if (levelString.substring(levelString.length()-2).equalsIgnoreCase("-o")) {
                     if (verb.getLevel().ordinal() == level.ordinal()) {
                         verbs.add(verb);
                     }
