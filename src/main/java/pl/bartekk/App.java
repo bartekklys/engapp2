@@ -21,7 +21,8 @@ public class App {
 
         Scanner reader = new Scanner(System.in);
         System.out.println("Podaj poziom: ");
-        Level level = Level.valueOf(reader.nextLine());
+        String levelString = reader.nextLine();
+        Level level = Level.valueOf(levelString.substring(0,2));
 
         List<IrregularVerb> verbs = new ArrayList<>();
 
@@ -37,7 +38,11 @@ public class App {
                 verb.setPastParticiple(strings[2]);
                 verb.setTranslation(strings[3]);
                 verb.setLevel(Level.valueOf(strings[4].toUpperCase()));
-                if (verb.getLevel().ordinal() <= level.ordinal()) {
+                if (levelString.substring(levelString.length()-2).equals("-o")) {
+                    if (verb.getLevel().ordinal() == level.ordinal()) {
+                        verbs.add(verb);
+                    }
+                }else if (verb.getLevel().ordinal() <= level.ordinal()) {
                     verbs.add(verb);
                 }
                 line = br.readLine();

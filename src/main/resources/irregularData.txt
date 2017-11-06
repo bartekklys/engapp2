@@ -125,7 +125,7 @@ fling;flung;flung;rzucić, cisnąć;c2
 forsake;forsook;forsaken;porzucać, zaniechać, opuścić;c2
 foretell;foretold;foretold;przepowiadać, przewidywać;c2
 grind;ground;ground;zemleć, rozkruszyć, zgrzytać, ostrzyć, trzeć;c2
-leap;leapt, leaped;leapt, leaped;skakać;c2
+leap;leapt/leaped;leapt/leaped;skakać;c2
 saw;sawed;sawn;piłować;c2
 shed;shed;shed;zrzucać, pozbywać się;c2
 slay;slew;slain;zabijać;c2
