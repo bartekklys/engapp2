@@ -83,7 +83,7 @@ freeze;froze;frozen;zamarzać;b1
 hang;hung;hung;zawieszać (coś, np. obraz);b1
 hide;hid;hidden;chować, ukrywać;b1
 let;let;let;pozwalać;b1
-lie (recline);lay;lain;leżeć, kłaść się;b1
+lie;lay;lain;leżeć, kłaść się;b1
 light;lighted, lit;lighted, lit;zapalać, rozpalać, oświetlać;b1
 quit;quit;quit;rzucać, opuszczać;b1
 rise;rose;risen;podnosić się, wzrastać, wschodzić (o słońcu);b1
