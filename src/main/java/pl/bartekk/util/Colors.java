@@ -1,5 +1,8 @@
 package pl.bartekk.util;
 
+import pl.bartekk.entity.IrregularVerb;
+import pl.bartekk.entity.Level;
+
 public class Colors {
 
     public static final String ANSI_RESET = "\u001B[0m";
@@ -21,4 +24,23 @@ public class Colors {
     public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
     public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 
+    public static String printLevel(IrregularVerb verb) {
+
+        switch (verb.getLevel()) {
+            case A1:
+                return ANSI_GREEN + Level.A1 + ANSI_RESET;
+            case A2:
+                return ANSI_GREEN + Level.A2 + ANSI_RESET;
+            case B1:
+                return ANSI_CYAN + Level.B1 + ANSI_RESET;
+            case B2:
+                return ANSI_CYAN + Level.B2 + ANSI_RESET;
+            case C1:
+                return ANSI_RED + Level.C1 + ANSI_RESET;
+            case C2:
+                return ANSI_RED + Level.C2 + ANSI_RESET;
+            default:
+                return "No color";
+        }
+    }
 }
