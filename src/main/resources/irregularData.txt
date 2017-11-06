@@ -12,7 +12,7 @@ cost;cost;cost;kosztować;a2
 cut;cut;cut;ciąć, kroić, skaleczyć;a2
 do;did;done;robić;a2
 draw;drew;drawn;rysować, pociągnąć, remisować;a2
-dream;dreamed, dreamt;dreamed, dreamt;śnić, marzyć;a2
+dream;dreamed/dreamt;dreamed/dreamt;śnić, marzyć;a2
 drink;drank;drunk;pić;a2
 drive;drove;driven;prowadzić, kierować się czymś;a2
 eat;ate;eaten;jeść;a2
@@ -31,7 +31,7 @@ hold;held;held;trzymać, utrzymywać, posiadać;a2
 hurt;hurt;hurt;ranić, boleć;a2
 keep;kept;kept;trzymać;a2
 know;knew;known;znać, wiedzieć;a2
-learn;learnt, learned;learnt, learned;uczyć się;a2
+learn;learnt/learned;learnt/learned;uczyć się;a2
 leave;left;left;opuszczać, wyjeżdżać, zostawiać;a2
 lend;lent;lent;pożyczać;a2
 lose;lost;lost;tracić, zgubić;a2
@@ -115,7 +115,7 @@ swing;swung;swung;machnąć, zakołysać;b2
 arise;arose;arisen;pojawić się;c1
 bet;bet;bet;zakładać się, obstawiać;c1
 flee;fled;fled;umykać, uciekać, opuścić;c1
-lay (put);laid;laid;położyć, kłaść;c1
+lay;laid;laid;położyć, kłaść;c1
 spin;spun;spun;kręcić, zakręcić czymś/się, obrócić;c1
 stink;stank;stunk;śmierdzieć, cuchnąć;c1
 bind;bound;bound;wiązać, złączyć, oprawić (książkę);c2

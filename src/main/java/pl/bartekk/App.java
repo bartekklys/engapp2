@@ -1,17 +1,14 @@
 package pl.bartekk;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import pl.bartekk.entity.IrregularVerb;
 import pl.bartekk.entity.Level;
+import pl.bartekk.util.Colors;
 import pl.bartekk.util.Constants;
-import pl.bartekk.util.DataLoader;
-import pl.bartekk.util.Utils;
 
+import java.awt.*;
 import java.io.*;
 import java.util.*;
+import java.util.List;
 
 public class App {
 
@@ -21,7 +18,7 @@ public class App {
 
         Scanner reader = new Scanner(System.in);
         System.out.println("Podaj poziom: ");
-        String levelString = reader.nextLine();
+        String levelString = reader.nextLine().toUpperCase();
         Level level = Level.valueOf(levelString.substring(0,2));
 
         List<IrregularVerb> verbs = new ArrayList<>();
@@ -65,6 +62,10 @@ public class App {
                     System.out.println(verb.getInfinitive() + " " + verb.getPastSimple() + " " + verb.getPastParticiple());
                 }
                 String userInput = reader.nextLine();
+                while (userInput.equals("")) {
+                    System.out.println(Colors.ANSI_YELLOW + "Hint: " + verb.getInfinitive() + " " + verb.getPastSimple() + " " + verb.getPastParticiple() + Colors.ANSI_RESET);
+                    userInput = reader.nextLine();
+                }
                 String[] strings = userInput.split(" ");
                 answer = new IrregularVerb(strings[0], strings[1], strings[2]);
                 attempt++;
