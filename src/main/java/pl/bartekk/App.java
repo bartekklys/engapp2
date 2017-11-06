@@ -16,6 +16,7 @@ public class App {
 
         BufferedReader br = new BufferedReader(new FileReader(Constants.IRREGULAR_VERBS));
 
+        System.out.println("\033[2J\n");
         Scanner reader = new Scanner(System.in);
         System.out.println("Podaj poziom: ");
         String levelString = reader.nextLine().toUpperCase();
