@@ -1,5 +1,9 @@
 package pl.bartekk;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import pl.bartekk.entity.IrregularVerb;
 import pl.bartekk.entity.Level;
 import pl.bartekk.util.Constants;
@@ -26,7 +30,7 @@ public class App {
 
             while (line != null) {
 
-                String[] strings = line.split(",");
+                String[] strings = line.split(";");
                 IrregularVerb verb = new IrregularVerb();
                 verb.setInfinitive(strings[0]);
                 verb.setPastSimple(strings[1]);
@@ -44,7 +48,7 @@ public class App {
 //        verbs = Utils.sortByLevel(verbs, level);
 
 
-        for (int i = 0 ; i < 10 ; i++) {
+        for (int i = 0 ; i < 30 ; i++) {
 
             IrregularVerb verb = pickRandom(verbs);
             System.out.println(verb.getTranslation());
@@ -72,9 +76,9 @@ public class App {
 
     /*public static void main(String[] args) throws IOException {
 
-        PrintWriter writer = new PrintWriter("/home/bartek/IdeaProjects/engapp/src/main/resources/irregularData.txt", "UTF-8");
+        PrintWriter writer = new PrintWriter("/home/bartek/IdeaProjects/engapp2/src/main/resources/irregularData.txt", "UTF-8");
 
-        File input = new File("/home/bartek/IdeaProjects/engapp/src/main/resources/irregular.xml");
+        File input = new File("/home/bartek/IdeaProjects/engapp2/src/main/resources/irregular.xml");
         Document doc = Jsoup.parse(input, "UTF-8", "");
         Elements links = doc.select("div");
         System.out.println("SIZE: " + links.size());
@@ -89,13 +93,13 @@ public class App {
             String className = level.className();
 
             writer.print(firstForm.text().substring(4));
-            writer.print(",");
+            writer.print(";");
             writer.print(secondForm.text());
-            writer.print(",");
+            writer.print(";");
             writer.print(thirdForm.text());
-            writer.print(",");
+            writer.print(";");
             writer.print(polish.text());
-            writer.print(",");
+            writer.print(";");
             writer.println(className.substring(4,6));
 
         }
