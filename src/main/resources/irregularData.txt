@@ -1,4 +1,4 @@
-be (am/is/are);was, were;been;być;a2
+be;was/were;been;być;a2
 become;became;become;stawać się, zostawać kimś/czymś;a2
 begin;began;begun;zaczynać;a2
 break;broke;broken;łamać, pękać, rozbić, tłuc;a2
@@ -36,7 +36,7 @@ leave;left;left;opuszczać, wyjeżdżać, zostawiać;a2
 lend;lent;lent;pożyczać;a2
 lose;lost;lost;tracić, zgubić;a2
 make;made;made;robić, wykonywać;a2
-mean;meant;meant;znaczyć, oznaczać; mieć na myśli;a2
+mean;meant;meant;znaczyć, oznaczać, mieć na myśli;a2
 meet;met;met;spotykać, poznać;a2
 pay;paid;paid;płacić;a2
 put;put;put;kłaść;a2
