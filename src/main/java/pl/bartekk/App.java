@@ -75,7 +75,6 @@ public class App {
 
     private static IrregularVerb pickRandom(List<IrregularVerb> verbs) {
         Random random = new Random();
-        System.out.println(verbs.size());
         int randomIndex = random.nextInt(verbs.size());
         return verbs.remove(randomIndex);
 
